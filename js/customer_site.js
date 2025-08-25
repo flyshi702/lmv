@@ -1,12 +1,12 @@
 const CUSTOMER_SITES = {
-    qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod',
-        name: '七七资源',
-    },
     senlin: {
         api: 'http://slapibf.com/api.php/provide/vod',
         name: '森林资源',
         adult: true
+    },
+    qiqi: {
+        api: 'https://www.qiqidys.com/api.php/provide/vod',
+        name: '七七资源',
     }
 };
 
