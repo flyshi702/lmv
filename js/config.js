@@ -27,11 +27,6 @@ const API_SITES = {
         name: '紅牛資源',
         adult: false
     },
-    liangzi: {
-        api: 'http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8',
-        name: '量子資源',
-        adult: false
-    },
     openmovie: {
         api: 'http://vod-demo.onrender.com/pubdovod.php',
         name: '開放電影',
@@ -65,11 +60,6 @@ const API_SITES = {
     kudian: {
         api: 'http://api.kuapi.cc/api.php/provide/vod',
         name: '酷点资源',
-        adult: false
-    },
-    wolong: {
-        api: 'http://collect.wolongzyw.com/api.php/provide/vod',
-        name: '卧龙资源',
         adult: false
     },
     kudian_backup: {
@@ -137,11 +127,6 @@ const API_SITES = {
         name: '北斗星资源',
         adult: false
     },
-    yinghua: {
-        api: 'http://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花资源网',
-        adult: false
-    },
     feisu: {
         api: 'http://feisuzy.com/api.php/provide/vod',
         name: '飞速资源',
@@ -150,11 +135,6 @@ const API_SITES = {
     kuaibo: {
         api: 'http://www.kuaibozy.com/api.php/provide/vod',
         name: '快播资源',
-        adult: false
-    },
-    baidu: {
-        api: 'http://api.apibdzy.com/api.php/provide/vod',
-        name: '百度资源',
         adult: false
     },
     aidan: {
