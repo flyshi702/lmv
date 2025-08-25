@@ -2,7 +2,6 @@ const CUSTOMER_SITES = {
     senlin: {
         api: 'http://slapibf.com/api.php/provide/vod',
         name: '森林资源',
-        adult: true
     },
     qiqi: {
         api: 'https://www.qiqidys.com/api.php/provide/vod',
