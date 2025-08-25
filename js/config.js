@@ -22,101 +22,154 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    dyttzy: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com', 
+    hongniu: {
+        api: 'http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8',
+        name: '紅牛資源',
+        adult: true
     },
-    ruyi: {
-        api: 'https://cj.rycjapi.com/api.php/provide/vod',
-        name: '如意资源',
+    liangzi: {
+        api: 'http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8',
+        name: '量子資源',
+        adult: true
     },
-    bfzy: {
-        api: 'https://bfzyapi.com/api.php/provide/vod',
-        name: '暴风资源',
+    openmovie: {
+        api: 'http://vod-demo.onrender.com/pubdovod.php',
+        name: '開放電影',
+        adult: true
     },
-    tyyszy: {
-        api: 'https://tyyszy.com/api.php/provide/vod',
-        name: '天涯资源',
+    youzhi: {
+        api: 'http://api.1080zyku.com/inc/api.php/provide/vod',
+        name: '优质资源库',
+        adult: true
     },
-    xiaomaomi: {
-        api: 'https://zy.xmm.hk/api.php/provide/vod',
-        name: '小猫咪资源',
+    sanjiu: {
+        api: 'http://39kan.com/api.php/provide/vod',
+        name: '39影視',
+        adult: true
     },
-    ffzy: {
-        api: 'http://ffzy5.tv/api.php/provide/vod',
-        name: '非凡影视',
-        detail: 'http://ffzy5.tv', 
+    tiantang: {
+        api: 'http://vipmv.cc/api.php/provide/vod',
+        name: '天堂资源',
+        adult: true
     },
-    heimuer: {
-        api: 'https://json.heimuer.xyz/api.php/provide/vod',
-        name: '黑木耳',
-        detail: 'https://heimuer.tv', 
+    lehuo: {
+        api: 'http://lehootv.com/api.php/provide/vod',
+        name: '乐活影视',
+        adult: true
     },
-    zy360: {
-        api: 'https://360zy.com/api.php/provide/vod',
-        name: '360资源',
+    tangrenjie: {
+        api: 'http://tangrenjie.tv/api.php/provide/vod',
+        name: '唐人街',
+        adult: true
     },
-    iqiyi: {
-        api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
-        name: 'iqiyi资源',
+    kudian: {
+        api: 'http://api.kuapi.cc/api.php/provide/vod',
+        name: '酷点资源',
+        adult: true
     },
     wolong: {
-        api: 'https://wolongzyw.com/api.php/provide/vod',
+        api: 'http://collect.wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
-    }, 
-    hwba: {
-        api: 'https://cjhwba.com/api.php/provide/vod',
-        name: '华为吧资源',
+        adult: true
     },
-    jisu: {
-        api: 'https://jszyapi.com/api.php/provide/vod',
-        name: '极速资源',
-        detail: 'https://jszyapi.com', 
+    kudian_backup: {
+        api: 'http://kudian10.com/api.php/provide/vod',
+        name: '酷点资源(备用)',
+        adult: true
     },
-    dbzy: {
-        api: 'https://dbzy.tv/api.php/provide/vod',
-        name: '豆瓣资源',
+    tangrenjie_ext: {
+        api: 'http://tangrenjie.tv/api.php/provide/vod/at/xm',
+        name: '唐人街(扩展)',
+        adult: true
     },
-    mozhua: {
-        api: 'https://mozhuazy.com/api.php/provide/vod',
-        name: '魔爪资源',
+    senlin: {
+        api: 'http://slapibf.com/api.php/provide/vod',
+        name: '森林资源',
+        adult: true
     },
-    mdzy: {
-        api: 'https://www.mdzyapi.com/api.php/provide/vod',
-        name: '魔都资源',
+    yingku: {
+        api: 'http://api.ykapi.net/api.php/provide/vod',
+        name: '影库资源网',
+        adult: true
     },
-    zuid: {
-        api: 'https://api.zuidapi.com/api.php/provide/vod',
-        name: '最大资源'
+    kuaiche: {
+        api: 'http://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8',
+        name: '快车资源',
+        adult: true
+    },
+    tantan: {
+        api: 'http://apittzy.com/api.php/provide/vod',
+        name: '探探资源',
+        adult: true
+    },
+    shandian: {
+        api: 'http://sdzyapi.com/api.php/provide/vod/from/sdm3u8',
+        name: '閃電資源',
+        adult: true
+    },
+    jinying: {
+        api: 'http://jyzyapi.com/provide/vod/from/jinyingm3u8',
+        name: '金鹰资源',
+        adult: true
+    },
+    guangsu: {
+        api: 'http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8',
+        name: '光速资源',
+        adult: true
+    },
+    aosika: {
+        api: 'http://aosikazy.com/api.php/provide/vod',
+        name: '奥斯卡资源网',
+        adult: true
+    },
+    laoya: {
+        api: 'http://api.apilyzy.com/api.php/provide/vod',
+        name: '老鸭资源采集',
+        adult: true
+    },
+    uku: {
+        api: 'http://api.ukuapi.com/api.php/provide/vod',
+        name: 'U酷资源',
+        adult: true
+    },
+    beidou: {
+        api: 'http://m3u8.bdxzyapi.com/api.php/provide/vod',
+        name: '北斗星资源',
+        adult: true
     },
     yinghua: {
-        api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
-        name: '樱花资源'
+        api: 'http://m3u8.apiyhzy.com/api.php/provide/vod',
+        name: '樱花资源网',
+        adult: true
+    },
+    feisu: {
+        api: 'http://feisuzy.com/api.php/provide/vod',
+        name: '飞速资源',
+        adult: true
+    },
+    kuaibo: {
+        api: 'http://www.kuaibozy.com/api.php/provide/vod',
+        name: '快播资源',
+        adult: true
     },
     baidu: {
-        api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云资源'
+        api: 'http://api.apibdzy.com/api.php/provide/vod',
+        name: '百度资源',
+        adult: true
     },
-    wujin: {
-        api: 'https://api.wujinapi.me/api.php/provide/vod',
-        name: '无尽资源'
+    aidan: {
+        api: 'http://lovedan.net/api.php/provide/vod',
+        name: '艾旦影视',
+        adult: true
     },
-    wwzy: {
-        api: 'https://wwzy.tv/api.php/provide/vod',
-        name: '旺旺短剧'
+    piaohua: {
+        api: 'http://www.zzrhgg.com/api.php/provide/vod',
+        name: '飘花电影',
+        adult: true
     },
-    ikun: {
-        api: 'https://ikunzyapi.com/api.php/provide/vod',
-        name: 'iKun资源'
-    },
-    lzi: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
-        name: '量子资源站'
-    },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+    wangmin: {
+        api: 'http://prinevillesda.org/api.php/provide/vod',
+        name: '网民电影',
         adult: true
     },
     //ARCHIVE https://telegra.ph/APIs-08-12
