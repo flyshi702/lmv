@@ -1,7 +1,7 @@
 const CUSTOMER_SITES = {
     qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod',
-        name: '七6资源',
+        api: 'http://slapibf.com/api.php/provide/vod',
+        name: '森林资源',
     }
 };
 
