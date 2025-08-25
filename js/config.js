@@ -22,9 +22,154 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+    hongniu: {
+        api: 'http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8',
+        name: '紅牛資源',
+        adult: true
+    },
+    liangzi: {
+        api: 'http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8',
+        name: '量子資源',
+        adult: true
+    },
+    openmovie: {
+        api: 'http://vod-demo.onrender.com/pubdovod.php',
+        name: '開放電影',
+        adult: true
+    },
+    youzhi: {
+        api: 'http://api.1080zyku.com/inc/api.php/provide/vod',
+        name: '优质资源库',
+        adult: true
+    },
+    sanjiu: {
+        api: 'http://39kan.com/api.php/provide/vod',
+        name: '39影視',
+        adult: true
+    },
+    tiantang: {
+        api: 'http://vipmv.cc/api.php/provide/vod',
+        name: '天堂资源',
+        adult: true
+    },
+    lehuo: {
+        api: 'http://lehootv.com/api.php/provide/vod',
+        name: '乐活影视',
+        adult: true
+    },
+    tangrenjie: {
+        api: 'http://tangrenjie.tv/api.php/provide/vod',
+        name: '唐人街',
+        adult: true
+    },
+    kudian: {
+        api: 'http://api.kuapi.cc/api.php/provide/vod',
+        name: '酷点资源',
+        adult: true
+    },
+    wolong: {
+        api: 'http://collect.wolongzyw.com/api.php/provide/vod',
+        name: '卧龙资源',
+        adult: true
+    },
+    kudian_backup: {
+        api: 'http://kudian10.com/api.php/provide/vod',
+        name: '酷点资源(备用)',
+        adult: true
+    },
+    tangrenjie_ext: {
+        api: 'http://tangrenjie.tv/api.php/provide/vod/at/xm',
+        name: '唐人街(扩展)',
+        adult: true
+    },
+    senlin: {
+        api: 'http://slapibf.com/api.php/provide/vod',
+        name: '森林资源',
+        adult: true
+    },
+    yingku: {
+        api: 'http://api.ykapi.net/api.php/provide/vod',
+        name: '影库资源网',
+        adult: true
+    },
+    kuaiche: {
+        api: 'http://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8',
+        name: '快车资源',
+        adult: true
+    },
+    tantan: {
+        api: 'http://apittzy.com/api.php/provide/vod',
+        name: '探探资源',
+        adult: true
+    },
+    shandian: {
+        api: 'http://sdzyapi.com/api.php/provide/vod/from/sdm3u8',
+        name: '閃電資源',
+        adult: true
+    },
+    jinying: {
+        api: 'http://jyzyapi.com/provide/vod/from/jinyingm3u8',
+        name: '金鹰资源',
+        adult: true
+    },
+    guangsu: {
+        api: 'http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8',
+        name: '光速资源',
+        adult: true
+    },
+    aosika: {
+        api: 'http://aosikazy.com/api.php/provide/vod',
+        name: '奥斯卡资源网',
+        adult: true
+    },
+    laoya: {
+        api: 'http://api.apilyzy.com/api.php/provide/vod',
+        name: '老鸭资源采集',
+        adult: true
+    },
+    uku: {
+        api: 'http://api.ukuapi.com/api.php/provide/vod',
+        name: 'U酷资源',
+        adult: true
+    },
+    beidou: {
+        api: 'http://m3u8.bdxzyapi.com/api.php/provide/vod',
+        name: '北斗星资源',
+        adult: true
+    },
+    yinghua: {
+        api: 'http://m3u8.apiyhzy.com/api.php/provide/vod',
+        name: '樱花资源网',
+        adult: true
+    },
+    feisu: {
+        api: 'http://feisuzy.com/api.php/provide/vod',
+        name: '飞速资源',
+        adult: true
+    },
+    kuaibo: {
+        api: 'http://www.kuaibozy.com/api.php/provide/vod',
+        name: '快播资源',
+        adult: true
+    },
+    baidu: {
+        api: 'http://api.apibdzy.com/api.php/provide/vod',
+        name: '百度资源',
+        adult: true
+    },
+    aidan: {
+        api: 'http://lovedan.net/api.php/provide/vod',
+        name: '艾旦影视',
+        adult: true
+    },
+    piaohua: {
+        api: 'http://www.zzrhgg.com/api.php/provide/vod',
+        name: '飘花电影',
+        adult: true
+    },
+    wangmin: {
+        api: 'http://prinevillesda.org/api.php/provide/vod',
+        name: '网民电影',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
